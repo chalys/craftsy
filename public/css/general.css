@@ -1,0 +1,38 @@
+/* variables */
+:root{
+  /*Paleta de colores*/
+  --blanco:#fff;
+  --negro:#000;
+  --naranja:#ff0000;
+
+  /*Tipografias*/
+  --familyRoboto: "Roboto", sans-serif;
+
+    /*Tamaños tipográficos*/
+     --titleTextSize: 18px;
+    --bodyTextSize: 12px;
+
+}
+
+
+*{
+ font-family: var(--familyRoboto);
+ box-sizing: border-box;
+}
+a{
+    color: var(--negro);
+    text-decoration: none;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  
+  ul {
+    padding: 0;
+  }
+  
+  body {
+    margin: 0px;
+  }

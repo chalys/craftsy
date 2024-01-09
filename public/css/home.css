@@ -1,0 +1,265 @@
+/*Mobile*/
+body.home-body {
+  background-image: url(/images/bg-2.png);
+}
+
+main.home-main {
+  padding: 15px;
+
+}
+
+main.home-main div.main-products {
+}
+
+main.home-main div.main-products article.product {
+  padding: 10px 10px 15px 10px;
+  background-color: var(--blanco);
+}
+
+main.home-main div.main-products article.product img.img-product {
+  width: 100%;
+}
+
+main.home-main div.main-products article.product h3.name-product {
+  font-size: var(--titleTextSize);
+}
+
+main.home-main div.main-products article.product p.text-product {
+  font-size: var(--bodyTextSize);
+}
+
+main.home-main aside.aside-tuto-publi {
+}
+
+main.home-main aside.aside-tuto-publi div.tutoriales {
+}
+
+main.home-main aside.aside-tuto-publi div.tutoriales h2 {
+  background-color: var(--blanco);
+  padding: 10px;
+  font-size: var(--titleTextSize);
+}
+
+main.home-main aside.aside-tuto-publi div.tutoriales div.tutorial {
+  background-color: var(--blanco);
+  padding: 10px;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+main.home-main
+  aside.aside-tuto-publi
+  div.tutoriales
+  div.tutorial
+  img.img-tutorial {
+  width: 100px;
+}
+
+main.home-main
+  aside.aside-tuto-publi
+  div.tutoriales
+  div.tutorial
+  p.text-tutorial {
+  padding: 10px;
+  font-size: var(--bodyTextSize);
+}
+
+main.home-main aside.aside-tuto-publi div.publicidads {
+}
+
+main.home-main aside.aside-tuto-publi div.publicidads h2 {
+  background-color: var(--blanco);
+  padding: 10px;
+  font-size: var(--titleTextSize);
+}
+
+main.home-main aside.aside-tuto-publi div.publicidads div.publicidad {
+  background-color: var(--blanco);
+  padding: 10px;
+}
+
+main.home-main
+  aside.aside-tuto-publi
+  div.publicidads
+  div.publicidad
+  img.img-publicidad {
+  width: 100%;
+}
+
+/*Tablet*/
+@media (min-width: 425px) {
+  body.home-body {
+  }
+
+  main.home-main {
+  }
+
+  main.home-main div.main-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  main.home-main div.main-products article.product {
+    width: 50%;
+  }
+
+  main.home-main div.main-products article.product img.img-product {
+  }
+
+  main.home-main div.main-products article.product h3.name-product {
+  }
+
+  main.home-main div.main-products article.product p.text-product {
+  }
+
+  main.home-main aside.aside-tuto-publi {
+  }
+
+  main.home-main aside.aside-tuto-publi div.tutoriales {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+
+  main.home-main aside.aside-tuto-publi div.tutoriales h2 {
+    width: 100%;
+  }
+
+  main.home-main aside.aside-tuto-publi div.tutoriales div.tutorial {
+    width: 50%;
+  }
+
+  main.home-main
+    aside.aside-tuto-publi
+    div.tutoriales
+    div.tutorial
+    img.img-tutorial {
+  }
+
+  main.home-main
+    aside.aside-tuto-publi
+    div.tutoriales
+    div.tutorial
+    p.text-tutorial {
+  }
+
+  main.home-main aside.aside-tuto-publi div.publicidads {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  main.home-main aside.aside-tuto-publi div.publicidads h2 {
+  width: 100%;
+  }
+
+  main.home-main aside.aside-tuto-publi div.publicidads div.publicidad {
+  width: 50%;
+  }
+
+  main.home-main
+    aside.aside-tuto-publi
+    div.publicidads
+    div.publicidad
+    img.img-publicidad {
+  }
+}
+
+/*Desktop*/
+
+@media (min-width: 769px) {
+  body.home-body {
+  margin: 5px 5% 5px 5%;
+  }
+
+  main.home-main {
+  padding: 15px 0px;
+  display: flex;
+  }
+
+  main.home-main div.main-products {
+
+width: 75%;
+
+}
+
+  main.home-main div.main-products article.product {
+
+  }
+
+  main.home-main div.main-products article.product img.img-product {
+  }
+
+  main.home-main div.main-products article.product h3.name-product {
+  }
+
+  main.home-main div.main-products article.product p.text-product {
+  }
+
+  main.home-main aside.aside-tuto-publi {
+  margin: 0 0 0 10px;
+  width: 25%;
+  }
+
+  main.home-main aside.aside-tuto-publi div.tutoriales {
+
+width: 100%;
+
+}
+
+  main.home-main aside.aside-tuto-publi div.tutoriales h2 {
+
+margin: 0px 0px 15px 0px;
+
+width: 100%;
+
+}
+
+  main.home-main aside.aside-tuto-publi div.tutoriales div.tutorial {
+ 
+margin: 2px 0px;
+ 
+padding: 0px 5px;
+ 
+width: 100%;
+ 
+}
+
+  main.home-main
+    aside.aside-tuto-publi
+    div.tutoriales
+    div.tutorial
+    img.img-tutorial {
+  width: 30%;
+  }
+
+  main.home-main
+    aside.aside-tuto-publi
+    div.tutoriales
+    div.tutorial
+    p.text-tutorial {
+  }
+
+  main.home-main aside.aside-tuto-publi div.publicidads {
+
+width: 100%;
+
+}
+
+  main.home-main aside.aside-tuto-publi div.publicidads h2 {
+ 
+  }
+
+  main.home-main aside.aside-tuto-publi div.publicidads div.publicidad {
+
+width: 100%;
+
+}
+
+  main.home-main
+    aside.aside-tuto-publi
+    div.publicidads
+    div.publicidad
+    img.img-publicidad {
+  }
+}
