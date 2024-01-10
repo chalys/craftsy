@@ -37,17 +37,17 @@ header.main-header a {
 }
 /* tableta*/
 @media(min-width:425px){
-    header.main-header {
-
-    }
+    header.main-header {}
     header.main-header img{
 
     }
     
     header.main-header nav {
         display: flex;
-        width: 83%;
+        font-size: 0.8rem;
         justify-content: space-between;
+        width: 100%;
+        padding: 0px 10px;
 }
 
     header.main-header nav ul{display: flex;}
